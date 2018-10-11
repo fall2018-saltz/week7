@@ -123,6 +123,16 @@
             ],
             "source": "data.csv",
             "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_bar_chart",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "plot3866.png"
         }
     ],
     "nodes": [
@@ -189,6 +199,6 @@
             "name": "plot8194.png"
         }
     ],
-    "updated_at": "2018-10-11 16:40:00",
+    "updated_at": "2018-10-11 16:40:33",
     "url": "https://github.com/fall2018-saltz/week7"
 }
