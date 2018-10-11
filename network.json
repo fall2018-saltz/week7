@@ -83,6 +83,106 @@
             ],
             "source": "histogram.R",
             "target": "plot6150.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "plot9487.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "plot2691.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_bar_chart",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "plot3866.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_bar_chart2",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "plot3745.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_bar_chart3",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "plot994.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_bar_chart4",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "plot8194.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "scatterplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_data_scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "scatterplot.R",
+            "target": "plot4723.png"
         }
     ],
     "nodes": [
@@ -117,8 +217,45 @@
         },
         {
             "name": "plot6150.png"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "",
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot9487.png"
+        },
+        {
+            "name": "plot2691.png"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "",
+            "name": "barchart.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot3866.png"
+        },
+        {
+            "name": "plot3745.png"
+        },
+        {
+            "name": "plot994.png"
+        },
+        {
+            "name": "plot8194.png"
+        },
+        {
+            "name": "plot4723.png"
+        },
+        {
+            "desc": "",
+            "name": "scatterplot.R"
         }
     ],
-    "updated_at": "2018-10-11 16:29:09",
+    "updated_at": "2018-10-11 16:47:09",
     "url": "https://github.com/fall2018-saltz/week7"
 }
