@@ -73,6 +73,16 @@
             ],
             "source": "histogram.R",
             "target": "plot4681.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rape",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "plot6150.png"
         }
     ],
     "nodes": [
@@ -109,6 +119,6 @@
             "name": "plot6150.png"
         }
     ],
-    "updated_at": "2018-10-11 16:28:53",
+    "updated_at": "2018-10-11 16:29:09",
     "url": "https://github.com/fall2018-saltz/week7"
 }
