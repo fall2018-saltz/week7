@@ -17,16 +17,6 @@
         {
             "ports": [
                 {
-                    "input": "cleanCensus",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "histogram.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot1",
                     "type": "png"
                 }
@@ -43,6 +33,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "histogram.R"
         }
     ],
     "nodes": [
@@ -65,6 +65,6 @@
             "name": "plot2219.png"
         }
     ],
-    "updated_at": "2018-10-11 16:19:01",
+    "updated_at": "2018-10-11 16:20:19",
     "url": "https://github.com/fall2018-saltz/week7"
 }
