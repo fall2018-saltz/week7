@@ -83,6 +83,16 @@
             ],
             "source": "histogram.R",
             "target": "plot6150.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "boxplot.R"
         }
     ],
     "nodes": [
@@ -123,6 +133,6 @@
             "name": "boxplot.R"
         }
     ],
-    "updated_at": "2018-10-11 16:30:28",
+    "updated_at": "2018-10-11 16:31:15",
     "url": "https://github.com/fall2018-saltz/week7"
 }
