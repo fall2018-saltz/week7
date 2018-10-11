@@ -1,4 +1,5 @@
 
+library(ggplot)
 # Basic histogram for popoulation 
 pop_hist<-ggplot(clean_data, aes(x=population)) +
   #30 for bins with count on y-axis and x-axis as population size
