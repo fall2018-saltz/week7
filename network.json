@@ -113,6 +113,16 @@
             ],
             "source": "boxplot.R",
             "target": "plot2691.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "barchart.R"
         }
     ],
     "nodes": [
@@ -165,6 +175,6 @@
             "name": "barchart.R"
         }
     ],
-    "updated_at": "2018-10-11 16:34:36",
+    "updated_at": "2018-10-11 16:34:57",
     "url": "https://github.com/fall2018-saltz/week7"
 }
