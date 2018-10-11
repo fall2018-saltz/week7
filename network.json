@@ -149,16 +149,22 @@
             "name": "plot6150.png"
         },
         {
+            "assigned_to": "beallen",
             "desc": "",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
         },
         {
             "name": "plot9487.png"
         },
         {
             "name": "plot2691.png"
+        },
+        {
+            "desc": "",
+            "name": "barchart.R"
         }
     ],
-    "updated_at": "2018-10-11 16:32:26",
+    "updated_at": "2018-10-11 16:34:36",
     "url": "https://github.com/fall2018-saltz/week7"
 }
