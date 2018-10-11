@@ -103,6 +103,16 @@
             ],
             "source": "boxplot.R",
             "target": "plot9487.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "plot2691.png"
         }
     ],
     "nodes": [
@@ -149,6 +159,6 @@
             "name": "plot2691.png"
         }
     ],
-    "updated_at": "2018-10-11 16:32:03",
+    "updated_at": "2018-10-11 16:32:26",
     "url": "https://github.com/fall2018-saltz/week7"
 }
