@@ -131,8 +131,11 @@
         {
             "desc": "",
             "name": "boxplot.R"
+        },
+        {
+            "name": "plot9487.png"
         }
     ],
-    "updated_at": "2018-10-11 16:31:15",
+    "updated_at": "2018-10-11 16:31:24",
     "url": "https://github.com/fall2018-saltz/week7"
 }
