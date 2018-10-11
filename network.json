@@ -63,6 +63,16 @@
             ],
             "source": "histogram.R",
             "target": "plot9425.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "urban_pop",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "plot4681.png"
         }
     ],
     "nodes": [
@@ -96,6 +106,6 @@
             "name": "plot4681.png"
         }
     ],
-    "updated_at": "2018-10-11 16:28:35",
+    "updated_at": "2018-10-11 16:28:47",
     "url": "https://github.com/fall2018-saltz/week7"
 }
