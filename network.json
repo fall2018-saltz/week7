@@ -171,10 +171,15 @@
             "name": "plot2691.png"
         },
         {
+            "assigned_to": "beallen",
             "desc": "",
-            "name": "barchart.R"
+            "name": "barchart.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot3866.png"
         }
     ],
-    "updated_at": "2018-10-11 16:34:57",
+    "updated_at": "2018-10-11 16:39:46",
     "url": "https://github.com/fall2018-saltz/week7"
 }
