@@ -16,4 +16,24 @@ readStates<-function(new_raw_data)
   return(new_raw_data)
 }
 cleanCensus<-readStates(new_raw_data)
-cleanCensus
+#create a dataframe of arrests data
+arrests<-USArrests
+#make a combined dataframe of arrests and cleanCensus data
+#str(arrests)
+#str(cleanCensus)
+
+#arrests[1:10,]
+#cleanCensus[1:10,]
+
+#delete District of Columbia row
+cleanCensus<-cleanCensus[-9,]
+#cleanCensus[1:10,]
+
+#reset rownumbers
+rownames(cleanCensus)<-NULL
+#cleanCensus[1:10,]
+#arrests[1:10,]
+
+#merge dataframes using merge 
+clean_data<-cbind(cleanCensus,arrests)
+clean_data
