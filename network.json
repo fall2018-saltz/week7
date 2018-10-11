@@ -17,16 +17,6 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
-                    "type": "png"
-                }
-            ],
-            "source": "histogram.R",
-            "target": "plot2219.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
@@ -43,6 +33,16 @@
             ],
             "source": "data.csv",
             "target": "histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "plot2219.png"
         }
     ],
     "nodes": [
@@ -58,13 +58,15 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "beallen",
             "desc": "",
-            "name": "histogram.R"
+            "name": "histogram.R",
+            "task_status": "in progress"
         },
         {
             "name": "plot2219.png"
         }
     ],
-    "updated_at": "2018-10-11 16:20:19",
+    "updated_at": "2018-10-11 16:22:28",
     "url": "https://github.com/fall2018-saltz/week7"
 }
