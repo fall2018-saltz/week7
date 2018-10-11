@@ -230,8 +230,12 @@
         },
         {
             "name": "plot4723.png"
+        },
+        {
+            "desc": "",
+            "name": "scatterplot.R"
         }
     ],
-    "updated_at": "2018-10-11 16:45:58",
+    "updated_at": "2018-10-11 16:46:17",
     "url": "https://github.com/fall2018-saltz/week7"
 }
