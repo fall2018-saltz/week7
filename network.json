@@ -17,7 +17,7 @@
         {
             "ports": [
                 {
-                    "output": "clean_Census",
+                    "output": "cleanCensus",
                     "type": "csv"
                 }
             ],
@@ -38,6 +38,6 @@
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-11 16:11:55",
+    "updated_at": "2018-10-11 16:12:22",
     "url": "https://github.com/fall2018-saltz/week7"
 }
