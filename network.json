@@ -93,6 +93,16 @@
             ],
             "source": "data.csv",
             "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "plot9487.png"
         }
     ],
     "nodes": [
@@ -136,6 +146,6 @@
             "name": "plot9487.png"
         }
     ],
-    "updated_at": "2018-10-11 16:31:24",
+    "updated_at": "2018-10-11 16:31:51",
     "url": "https://github.com/fall2018-saltz/week7"
 }
