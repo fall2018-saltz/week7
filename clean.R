@@ -16,3 +16,4 @@ readStates<-function(new_raw_data)
   return(new_raw_data)
 }
 cleanCensus<-readStates(new_raw_data)
+cleanCensus
