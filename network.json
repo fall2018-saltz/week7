@@ -47,7 +47,7 @@
         {
             "ports": [
                 {
-                    "output": "pop_hist1",
+                    "output": "murder_rate",
                     "type": "png"
                 }
             ],
@@ -80,6 +80,6 @@
             "name": "plot3839.png"
         }
     ],
-    "updated_at": "2018-10-11 16:26:45",
+    "updated_at": "2018-10-11 16:27:31",
     "url": "https://github.com/fall2018-saltz/week7"
 }
