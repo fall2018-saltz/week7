@@ -163,6 +163,16 @@
             ],
             "source": "barchart.R",
             "target": "plot8194.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "scatterplot.R"
         }
     ],
     "nodes": [
@@ -236,6 +246,6 @@
             "name": "scatterplot.R"
         }
     ],
-    "updated_at": "2018-10-11 16:46:17",
+    "updated_at": "2018-10-11 16:46:47",
     "url": "https://github.com/fall2018-saltz/week7"
 }
