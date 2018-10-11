@@ -43,6 +43,16 @@
             ],
             "source": "histogram.R",
             "target": "plot2219.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_hist1",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "plot3839.png"
         }
     ],
     "nodes": [
@@ -70,6 +80,6 @@
             "name": "plot3839.png"
         }
     ],
-    "updated_at": "2018-10-11 16:26:22",
+    "updated_at": "2018-10-11 16:26:45",
     "url": "https://github.com/fall2018-saltz/week7"
 }
