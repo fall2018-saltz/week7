@@ -2,9 +2,9 @@
 library(ggplot2)
 #Calculate number of murders by state
 murders_each_state<- clean_data$Murder*(clean_data$population/100000)
-murders_each_state
+#Create variable for storing state names
 state<-as.character(clean_data$stateName)
-#combine the dataframe
+#combine data and make it a dataframe
 murders_per_state<-as.data.frame(cbind(state,murders_each_state))
 #View(murders_per_state)
 
