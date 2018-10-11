@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanCensus",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "histogram.R"
         }
     ],
     "nodes": [
@@ -42,6 +52,6 @@
             "name": "histogram.R"
         }
     ],
-    "updated_at": "2018-10-11 16:13:59",
+    "updated_at": "2018-10-11 16:14:34",
     "url": "https://github.com/fall2018-saltz/week7"
 }
