@@ -173,6 +173,16 @@
             ],
             "source": "data.csv",
             "target": "scatterplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_data_scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "scatterplot.R",
+            "target": "plot4723.png"
         }
     ],
     "nodes": [
@@ -246,6 +256,6 @@
             "name": "scatterplot.R"
         }
     ],
-    "updated_at": "2018-10-11 16:46:47",
+    "updated_at": "2018-10-11 16:47:09",
     "url": "https://github.com/fall2018-saltz/week7"
 }
