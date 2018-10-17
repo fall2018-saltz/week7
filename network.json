@@ -252,10 +252,16 @@
             "name": "plot4723.png"
         },
         {
+            "assigned_to": "beallen",
             "desc": "",
-            "name": "scatterplot.R"
+            "name": "scatterplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "new_data.csv"
         }
     ],
-    "updated_at": "2018-10-11 16:47:09",
+    "notes": "This is the beginning of week 6 work, later it will turn to hw7",
+    "updated_at": "2018-10-17 23:56:07",
     "url": "https://github.com/fall2018-saltz/week7"
 }
