@@ -183,6 +183,16 @@
             ],
             "source": "scatterplot.R",
             "target": "plot4723.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "update_clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "new_data.csv"
         }
     ],
     "nodes": [
@@ -262,6 +272,6 @@
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-17 23:56:07",
+    "updated_at": "2018-10-17 23:57:02",
     "url": "https://github.com/fall2018-saltz/week7"
 }
