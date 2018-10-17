@@ -45,4 +45,8 @@ rownames(cleanCensus)<-NULL
 
 #merge dataframes using merge 
 clean_data<-cbind(cleanCensus,arrests)
+
+#code for week 6 Homework
 clean_data
+
+# code for Homework 7  
