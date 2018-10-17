@@ -1,5 +1,5 @@
 
-## Homework 6 Submitted by Benjamin Allen on October 10th, 2018
+## Homework 7 Submitted by Benjamin Allen on October 17th, 2018
 ## 
 #Part of this code is taken from week 6 slides
 #Part of the code is help from Professor Saltz
