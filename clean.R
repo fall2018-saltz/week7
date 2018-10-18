@@ -57,7 +57,7 @@ library("ggmap")
 data_states<- data.frame(state.center,state.area, stringsAsFactors = FALSE)
 #merge dataframes using  
 update_clean_data<-cbind(clean_data,data_states)
-View(update_clean_data)
+
 
 #create groups for the data to 
 #us_groups<-c(1:50)
@@ -79,4 +79,5 @@ update_clean_data$stateName<-tolower(as.character(update_clean_data$stateName))
 #Create a basic frame for map data layer map 
 us1 <- map_data("state")
 
+update_clean_data
 
