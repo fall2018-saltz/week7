@@ -54,5 +54,29 @@ library("maps")
 library("mapdata")
 library("ggmap")
 ##
+data_states<- data.frame(state.center,state.area, stringsAsFactors = FALSE)
+#merge dataframes using  
+update_clean_data<-cbind(clean_data,data_states)
+View(update_clean_data)
+
+#create groups for the data to 
+#us_groups<-c(1:50)
+#View(us_groups)
+
+#change the column names for x and y to lat and long
+colnames(update_clean_data)[9] <- "long"
+colnames(update_clean_data)[10] <- "lat"
+
+# Create new dataframe
+update_clean_data<-data.frame(cbind(update_clean_data,us_groups),stringsAsFactors = FALSE)
+#reset rownumbers
+rownames(update_clean_data)<-NULL
+
+#change the column state name to a string of characters and make them lowercase
+update_clean_data$stateName<-tolower(as.character(update_clean_data$stateName))
+
+
+#Create a basic frame for map data layer map 
+us1 <- map_data("state")
 
 
