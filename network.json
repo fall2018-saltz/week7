@@ -306,9 +306,12 @@
         },
         {
             "name": "state_area.png"
+        },
+        {
+            "name": "map_data.csv"
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-18 00:07:55",
+    "updated_at": "2018-10-18 00:09:29",
     "url": "https://github.com/fall2018-saltz/week7"
 }
