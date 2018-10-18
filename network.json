@@ -321,9 +321,12 @@
             "desc": "",
             "name": "all_map_data.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "map_murder.png"
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-18 00:19:31",
+    "updated_at": "2018-10-18 00:21:49",
     "url": "https://github.com/fall2018-saltz/week7"
 }
