@@ -183,6 +183,86 @@
             ],
             "source": "scatterplot.R",
             "target": "plot4723.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.popColor",
+                    "type": "png"
+                }
+            ],
+            "source": "all_map_data.R",
+            "target": "state_area.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us1",
+                    "type": "csv"
+                }
+            ],
+            "source": "map_data.csv",
+            "target": "all_map_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "us1",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "map_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "update_clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "new_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "update_clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "new_data.csv",
+            "target": "all_map_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.popColor2",
+                    "type": "png"
+                }
+            ],
+            "source": "all_map_data.R",
+            "target": "map_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.popColor3",
+                    "type": "png"
+                }
+            ],
+            "source": "all_map_data.R",
+            "target": "map_pop_circle_dimension.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.popColor4",
+                    "type": "png"
+                }
+            ],
+            "source": "all_map_data.R",
+            "target": "map_northeast_circle.png"
         }
     ],
     "nodes": [
@@ -252,10 +332,37 @@
             "name": "plot4723.png"
         },
         {
+            "assigned_to": "beallen",
             "desc": "",
-            "name": "scatterplot.R"
+            "name": "scatterplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "new_data.csv"
+        },
+        {
+            "name": "state_area.png"
+        },
+        {
+            "name": "map_data.csv"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "",
+            "name": "all_map_data.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map_murder.png"
+        },
+        {
+            "name": "map_pop_circle_dimension.png"
+        },
+        {
+            "name": "map_northeast_circle.png"
         }
     ],
-    "updated_at": "2018-10-11 16:47:09",
+    "notes": "This is the beginning of week 6 work, later it will turn to hw7",
+    "updated_at": "2018-10-18 00:23:22",
     "url": "https://github.com/fall2018-saltz/week7"
 }
