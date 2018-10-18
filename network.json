@@ -221,6 +221,16 @@
             ],
             "source": "map_state_area.R",
             "target": "state_area.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "us1",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "map_data.csv"
         }
     ],
     "nodes": [
@@ -312,6 +322,6 @@
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-18 00:09:29",
+    "updated_at": "2018-10-18 00:09:43",
     "url": "https://github.com/fall2018-saltz/week7"
 }
