@@ -51,7 +51,6 @@ clean_data
 
 # code for Homework 7 
 library("maps")
-library("mapdata")
 library("ggmap")
 ##
 data_states<- data.frame(state.center,state.area, stringsAsFactors = FALSE)
