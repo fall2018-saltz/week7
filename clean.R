@@ -80,4 +80,4 @@ update_clean_data$stateName<-tolower(as.character(update_clean_data$stateName))
 us1 <- map_data("state")
 
 update_clean_data
-
+us1
