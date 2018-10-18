@@ -68,8 +68,6 @@ update_clean_data<-cbind(clean_data,data_states)
 colnames(update_clean_data)[9] <- "long"
 colnames(update_clean_data)[10] <- "lat"
 
-# Create new dataframe
-update_clean_data<-data.frame(cbind(update_clean_data,us_groups),stringsAsFactors = FALSE)
 #reset rownumbers
 rownames(update_clean_data)<-NULL
 
