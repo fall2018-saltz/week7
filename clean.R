@@ -49,4 +49,10 @@ clean_data<-cbind(cleanCensus,arrests)
 #code for week 6 Homework
 clean_data
 
-# code for Homework 7  
+# code for Homework 7 
+library("maps")
+library("mapdata")
+library("ggmap")
+##
+
+
