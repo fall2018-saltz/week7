@@ -1,5 +1,5 @@
 
-## Homework 6 Submitted by Benjamin Allen on October 10th, 2018
+## Homework 7 Submitted by Benjamin Allen on October 17th, 2018
 ## 
 #Part of this code is taken from week 6 slides
 #Part of the code is help from Professor Saltz
@@ -45,4 +45,39 @@ rownames(cleanCensus)<-NULL
 
 #merge dataframes using merge 
 clean_data<-cbind(cleanCensus,arrests)
+
+#code for week 6 Homework
 clean_data
+
+# code for Homework 7 
+library("ggplot2")
+library("maps")
+library("ggmap")
+
+##
+data_states<- data.frame(state.center,state.area, stringsAsFactors = FALSE)
+#merge dataframes using  
+update_clean_data<-cbind(clean_data,data_states)
+
+
+#create groups for the data to 
+#us_groups<-c(1:50)
+#View(us_groups)
+
+#change the column names for x and y to lat and long
+colnames(update_clean_data)[9] <- "long"
+colnames(update_clean_data)[10] <- "lat"
+
+#reset rownumbers
+rownames(update_clean_data)<-NULL
+
+#change the column state name to a string of characters and make them lowercase
+update_clean_data$stateName<-tolower(as.character(update_clean_data$stateName))
+
+
+#Create a basic frame for map data layer map 
+us1 <- map_data("state")
+
+update_clean_data
+us1
+
