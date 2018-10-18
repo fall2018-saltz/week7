@@ -1,7 +1,6 @@
 
 library("ggplot2")
 library("maps")
-library("mapdata")
 library("ggmap")
 ##Step B: Create a color coded map by state.area
 map.popColor <- ggplot(update_clean_data, aes(map_id = stateName))
