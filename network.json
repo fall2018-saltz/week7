@@ -289,11 +289,16 @@
             "name": "new_data.csv"
         },
         {
+            "assigned_to": "beallen",
             "desc": "",
-            "name": "map_state_area.R"
+            "name": "map_state_area.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "state_area.png"
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-18 00:05:58",
+    "updated_at": "2018-10-18 00:07:28",
     "url": "https://github.com/fall2018-saltz/week7"
 }
