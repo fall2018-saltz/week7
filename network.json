@@ -227,7 +227,7 @@
         {
             "ports": [
                 {
-                    "output": "update_clean_data",
+                    "output": "us1",
                     "type": "csv"
                 }
             ],
@@ -324,6 +324,6 @@
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-18 00:10:56",
+    "updated_at": "2018-10-18 00:11:10",
     "url": "https://github.com/fall2018-saltz/week7"
 }
