@@ -191,7 +191,7 @@
                     "type": "png"
                 }
             ],
-            "source": "map_state_area.R",
+            "source": "all_map_data.R",
             "target": "state_area.png"
         },
         {
@@ -202,7 +202,7 @@
                 }
             ],
             "source": "map_data.csv",
-            "target": "map_state_area.R"
+            "target": "all_map_data.R"
         },
         {
             "ports": [
@@ -232,7 +232,7 @@
                 }
             ],
             "source": "new_data.csv",
-            "target": "map_state_area.R"
+            "target": "all_map_data.R"
         }
     ],
     "nodes": [
@@ -311,19 +311,19 @@
             "name": "new_data.csv"
         },
         {
-            "assigned_to": "beallen",
-            "desc": "",
-            "name": "map_state_area.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "state_area.png"
         },
         {
             "name": "map_data.csv"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "",
+            "name": "all_map_data.R",
+            "task_status": "in progress"
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-18 00:13:54",
+    "updated_at": "2018-10-18 00:19:31",
     "url": "https://github.com/fall2018-saltz/week7"
 }
