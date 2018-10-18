@@ -50,8 +50,10 @@ clean_data<-cbind(cleanCensus,arrests)
 clean_data
 
 # code for Homework 7 
+library("ggplot2")
 library("maps")
 library("ggmap")
+
 ##
 data_states<- data.frame(state.center,state.area, stringsAsFactors = FALSE)
 #merge dataframes using  
