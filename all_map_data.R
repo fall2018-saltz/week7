@@ -1,4 +1,14 @@
 
+## Homework 7 Submitted by Benjamin Allen on October 17th, 2018
+## 
+#Part of this code is taken from week 7 slides
+#Part of the code is help from Professor Saltz
+#Part of the code is from Introduction to Data Science Book
+#Part of this code taking from Stack Overflow
+## https://stackoverflow.com/questions/35681614/error-when-making-a-simple-boxplot-with-ggplot2
+#https://stackoverflow.com/questions/10941225/horizontal-barplot-in-ggplot2
+#https://jabranham.com/blog/2016/03/ggplot-maps/
+# # but the comments are all original.
 library("ggplot2")
 library("maps")
 library("ggmap")
