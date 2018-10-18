@@ -233,6 +233,16 @@
             ],
             "source": "new_data.csv",
             "target": "all_map_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.popColor2",
+                    "type": "png"
+                }
+            ],
+            "source": "all_map_data.R",
+            "target": "map_murder.png"
         }
     ],
     "nodes": [
@@ -333,6 +343,6 @@
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-18 00:22:34",
+    "updated_at": "2018-10-18 00:22:54",
     "url": "https://github.com/fall2018-saltz/week7"
 }
