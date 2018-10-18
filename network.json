@@ -327,9 +327,12 @@
         },
         {
             "name": "map_pop_circle_dimension.png"
+        },
+        {
+            "name": "map_northeast_circle.png"
         }
     ],
     "notes": "This is the beginning of week 6 work, later it will turn to hw7",
-    "updated_at": "2018-10-18 00:22:15",
+    "updated_at": "2018-10-18 00:22:34",
     "url": "https://github.com/fall2018-saltz/week7"
 }
